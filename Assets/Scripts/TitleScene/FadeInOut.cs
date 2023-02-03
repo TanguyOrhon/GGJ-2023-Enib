@@ -1,18 +1,28 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
+using TMPro;
 
 public class FadeInOut : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private TextMeshProUGUI _text;
+    
+    private void Awake()
     {
-        
+        _text = GetComponent<TextMeshProUGUI>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        StartCoroutine(Animate());
+    }
+
+    private IEnumerator Animate()
+    {
+        while (true)
+        {
+            yield return _text.DOFade(0, 1).WaitForCompletion(true);
+            yield return _text.DOFade(1, 1).WaitForCompletion(true);
+        }
     }
 }
