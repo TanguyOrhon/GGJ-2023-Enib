@@ -19,15 +19,15 @@ namespace DialogueSystem
             dialogueUI.HideDialogue();
         }
 
-        public void LoadSequence()
+        public void LoadSequence(int index)
         {
-            _currentSequenceIndex = -1;
-            _currentSequence = null;
+            _currentSequenceIndex = index;
+            _currentSequence = sequences[_currentSequenceIndex];
             _currentSpeaker = null;
             _currentSentenceIndex = -1;
             _currentSubsentenceIndex = -1;
             dialogueUI.ShowDialogue();
-            NextSequence(); // the first by default
+            NextSentence();
         }
 
         private void NextSentence()
@@ -37,7 +37,8 @@ namespace DialogueSystem
             {
                 _currentSentenceIndex = -1;
                 // On finished
-                NextSequence();
+                dialogueUI.HideDialogue();
+                print("DIALOGUE END");
                 return;
             }
             _currentSpeaker = _currentSequence.DialogueList[_currentSentenceIndex];
@@ -58,21 +59,6 @@ namespace DialogueSystem
             var s = _currentSpeaker.Sentences[_currentSubsentenceIndex];
             dialogueUI.StopAllTypings();
             dialogueUI.UpdateBox(_currentSpeaker.Speaker, s);
-        }
-
-        private void NextSequence()
-        {
-            _currentSequenceIndex++;
-            if (_currentSequenceIndex >= sequences.Count)
-            {
-                _currentSequenceIndex = -1;
-                // On finished
-                dialogueUI.HideDialogue();
-                print("SEQUENCES END");
-                return;
-            }
-            _currentSequence = sequences[_currentSequenceIndex];
-            NextSentence();
         }
 
         public void NextButtonAction()
