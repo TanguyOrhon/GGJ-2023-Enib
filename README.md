@@ -5,8 +5,11 @@
 This is a game developped on Unity for the Global Game Jam 2023 at the ENIB
 
 **Theme**       : Roots
+
 **Game Name**   : Crime roots
+
 **Style**       : Visual Novel
+
 
 ## Plot
 
