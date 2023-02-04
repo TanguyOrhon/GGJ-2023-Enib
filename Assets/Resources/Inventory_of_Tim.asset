@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6531ee7eedc51254f98094492c9ac3de, type: 3}
-  m_Name: Inventory01
+  m_Name: Inventory_of_Tim
   m_EditorClassIdentifier: 
   inventory:
   - Name: cafe_coeur
@@ -28,11 +28,11 @@ MonoBehaviour:
   - Name: drum_simple
     Image: {fileID: 2800000, guid: d5e0f89f114fb4e4a8834552c04a5df3, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: a5011ea9a46afb74e817be23b2176e36, type: 2}
   - Name: flute_a_bec
     Image: {fileID: 2800000, guid: d191236532d760f4a990a2bca7623f99, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: 375d848619746d84b90c73202ee41bca, type: 2}
   - Name: flute_cheloue
     Image: {fileID: 2800000, guid: 32c715396ecc0d740afe8a87381569d9, type: 3}
     Hide: 1
@@ -40,60 +40,60 @@ MonoBehaviour:
   - Name: guitar
     Image: {fileID: 2800000, guid: 09232cbb4606eeb45aa61e61309248d8, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: 08b1134f84a27e74491c8de99f342673, type: 2}
   - Name: xylo_drum
     Image: {fileID: 2800000, guid: b5dd567f4079b5643966e3379499b35e, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: 40bfdb52e9bbfb8469c1635be90a479c, type: 2}
   - Name: cassette-stylised
     Image: {fileID: 2800000, guid: 6fcad0b7ec62b7a49954063caed9af2a, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: 527642d31ebc7a945be52b8c21d73f6c, type: 2}
   - Name: Pansement_1
     Image: {fileID: 2800000, guid: bf25d315510e233478cb88a378c245fd, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: add315186fd01a441ba5297c9d9b421b, type: 2}
   - Name: pansement_2
     Image: {fileID: 2800000, guid: 3689d41c7bb13404a9206108a9c399a5, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: add315186fd01a441ba5297c9d9b421b, type: 2}
   - Name: velo_casse
     Image: {fileID: 2800000, guid: 47ab6ff314bce3e46858cb392f56b56d, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: 70d92f581af9a7141b1872d63e08610c, type: 2}
   - Name: vhs
     Image: {fileID: 2800000, guid: 1347dd1d7d3741347bdb2269569eddc3, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: 2c419533026735543bcd68c374d89a99, type: 2}
   - Name: blouse
     Image: {fileID: 2800000, guid: a6bf120cda7c4eb4097e33479785fcfa, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: 57f33df2f87f311459133370e62cf663, type: 2}
   - Name: jean-victor-balin-poison
     Image: {fileID: 2800000, guid: e5981c4a0e0c5da44ac54bbe67de641d, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: 1c2adf01d9578a34f8c58e5ad3152b70, type: 2}
   - Name: tube_a_essai_3
     Image: {fileID: 2800000, guid: 79f18601cf430c344bebf4e4f2c1ac98, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: 0063520584529c94c9be93d9a6908781, type: 2}
   - Name: tube_a_essai
     Image: {fileID: 2800000, guid: 1f9be9ecec0fcf440a4f2e66c876ff73, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: dae97677a3f659a479537d611cc1a241, type: 2}
   - Name: tube_essai
     Image: {fileID: 2800000, guid: fc4f084e392080647aefa1ac761541af, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: 79c61abb246c20d47881ba13c732a807, type: 2}
   - Name: Cadre_famille
     Image: {fileID: 2800000, guid: 0867e29acbcd1ee489127142c5b7648b, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: 67013889ae35605439fb42627af1bdf1, type: 2}
   - Name: tape_video
     Image: {fileID: 2800000, guid: 82d5fcc2ab28e7041ab0f964c49f0983, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: 89cfb80e12639864d82d987a1212ede0, type: 2}
   - Name: trepied
     Image: {fileID: 2800000, guid: 3d9991123a37d8447b09a8309c69fb3d, type: 3}
     Hide: 1
-    Dialogue: {fileID: 0}
+    Dialogue: {fileID: 11400000, guid: 67eafe9815a433f4aa24e3ee65a23795, type: 2}

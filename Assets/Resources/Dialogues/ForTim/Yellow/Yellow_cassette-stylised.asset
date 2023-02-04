@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95729d81c5184081869a26fdaf2ec08b, type: 3}
+  m_Name: Yellow_cassette-stylised
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - Speaker: "M\xC8RE DE TIM (en pens\xE9e)"
+    Sentences:
+    - "Tim, arr\xEAte de toujours voler les jouets de ta s\u0153ur! ne soit pas toujours
+      jaloux comme \xE7a!"
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "D\xE9j\xE0 tr\xE8s jeune il semblait \xEAtre tr\xE8s jaloux!"
