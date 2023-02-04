@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a7ce4a4-e7ea-43f8-ac8f-bef67d289816" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Assets.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assets.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenes/End_Maya.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/End_Maya.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/LoadingScene.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/LoadingScene.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Scripts/Innocent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Scripts/LoadingEndScene.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Scripts/MainMenu/LoadSpecificScene.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Scripts/MainMenu/MainMenu.cs" root0="SKIP_HIGHLIGHTING" />
