@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 73178956}
   - component: {fileID: 73178955}
   - component: {fileID: 73178954}
+  - component: {fileID: 73178957}
   m_Layer: 5
   m_Name: Zone2Button
   m_TagString: Untagged
@@ -206,7 +207,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 73178955}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 73178957}
+        m_TargetAssemblyTypeName: LoadSpecificScene, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &73178955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,6 +258,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73178952}
   m_CullTransparentMesh: 1
+--- !u!114 &73178957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73178952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f9626d81f5889429bc5dd913ffd48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: SusTwoZone1Scene
 --- !u!1 &267848791
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,10 +412,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: cfcc4fc23c1113945aabbfe71c7dd97a, type: 3}
-    m_FontSize: 18
+    m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 1
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -736,7 +762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4f9626d81f5889429bc5dd913ffd48b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sceneName: SusTwoZone1Scene
 --- !u!1 &921971618
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,6 +855,7 @@ GameObject:
   - component: {fileID: 1169600186}
   - component: {fileID: 1169600185}
   - component: {fileID: 1169600184}
+  - component: {fileID: 1169600187}
   m_Layer: 5
   m_Name: Zone4Button
   m_TagString: Untagged
@@ -900,7 +927,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1169600185}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1169600187}
+        m_TargetAssemblyTypeName: LoadSpecificScene, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1169600185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -939,6 +978,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169600182}
   m_CullTransparentMesh: 1
+--- !u!114 &1169600187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169600182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f9626d81f5889429bc5dd913ffd48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: SusTwoZone4Scene
 --- !u!1 &1292598247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,6 +1167,7 @@ GameObject:
   - component: {fileID: 1655555984}
   - component: {fileID: 1655555983}
   - component: {fileID: 1655555982}
+  - component: {fileID: 1655555985}
   m_Layer: 5
   m_Name: Zone3Button
   m_TagString: Untagged
@@ -1186,7 +1239,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1655555983}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1655555985}
+        m_TargetAssemblyTypeName: LoadSpecificScene, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1655555983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1225,6 +1290,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655555980}
   m_CullTransparentMesh: 1
+--- !u!114 &1655555985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655555980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f9626d81f5889429bc5dd913ffd48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: SusTwoZone3Scene
 --- !u!1 &1856636295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,8 +1409,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 89, y: -23}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 182.02, y: -45.27}
+  m_SizeDelta: {x: 346.04, y: 74.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1899751813
 MonoBehaviour:
