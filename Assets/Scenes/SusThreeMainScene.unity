@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 73178956}
   - component: {fileID: 73178955}
   - component: {fileID: 73178954}
+  - component: {fileID: 73178957}
   m_Layer: 5
   m_Name: Zone2Button
   m_TagString: Untagged
@@ -206,7 +207,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 73178955}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 73178957}
+        m_TargetAssemblyTypeName: LoadSpecificScene, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &73178955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,6 +258,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73178952}
   m_CullTransparentMesh: 1
+--- !u!114 &73178957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73178952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f9626d81f5889429bc5dd913ffd48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: SusThreeZone3Scene
 --- !u!1 &267848791
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,6 +627,7 @@ GameObject:
   - component: {fileID: 528431377}
   - component: {fileID: 528431376}
   - component: {fileID: 528431375}
+  - component: {fileID: 528431378}
   m_Layer: 5
   m_Name: Zone1Button
   m_TagString: Untagged
@@ -672,7 +699,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 528431376}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 528431378}
+        m_TargetAssemblyTypeName: LoadSpecificScene, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &528431376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -711,6 +750,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528431373}
   m_CullTransparentMesh: 1
+--- !u!114 &528431378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528431373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f9626d81f5889429bc5dd913ffd48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: SusThreeZone1Scene
 --- !u!1 &921971618
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,6 +855,7 @@ GameObject:
   - component: {fileID: 1169600186}
   - component: {fileID: 1169600185}
   - component: {fileID: 1169600184}
+  - component: {fileID: 1169600187}
   m_Layer: 5
   m_Name: Zone4Button
   m_TagString: Untagged
@@ -874,7 +927,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1169600185}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1169600187}
+        m_TargetAssemblyTypeName: LoadSpecificScene, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1169600185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -913,6 +978,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169600182}
   m_CullTransparentMesh: 1
+--- !u!114 &1169600187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169600182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f9626d81f5889429bc5dd913ffd48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: SusThreeZone4Scene
 --- !u!1 &1292598247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1089,6 +1167,7 @@ GameObject:
   - component: {fileID: 1655555984}
   - component: {fileID: 1655555983}
   - component: {fileID: 1655555982}
+  - component: {fileID: 1655555985}
   m_Layer: 5
   m_Name: Zone3Button
   m_TagString: Untagged
@@ -1160,7 +1239,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1655555983}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1655555985}
+        m_TargetAssemblyTypeName: LoadSpecificScene, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1655555983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1199,6 +1290,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655555980}
   m_CullTransparentMesh: 1
+--- !u!114 &1655555985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655555980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f9626d81f5889429bc5dd913ffd48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: SusThreeZone2Scene
 --- !u!1 &1856636295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,6 +1383,7 @@ GameObject:
   - component: {fileID: 1899751815}
   - component: {fileID: 1899751814}
   - component: {fileID: 1899751813}
+  - component: {fileID: 1899751816}
   m_Layer: 5
   m_Name: PreviousButton
   m_TagString: Untagged
@@ -1350,7 +1455,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1899751814}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1899751816}
+        m_TargetAssemblyTypeName: LoadSpecificScene, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1899751814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1389,6 +1506,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899751811}
   m_CullTransparentMesh: 1
+--- !u!114 &1899751816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899751811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f9626d81f5889429bc5dd913ffd48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: MainScene
 --- !u!1 &1961843837
 GameObject:
   m_ObjectHideFlags: 0
