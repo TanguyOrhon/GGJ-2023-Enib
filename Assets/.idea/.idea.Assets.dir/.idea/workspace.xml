@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3a7ce4a4-e7ea-43f8-ac8f-bef67d289816" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Assets.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assets.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/ChooseInnocentScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/ChooseInnocentScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Innocent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Innocent.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
