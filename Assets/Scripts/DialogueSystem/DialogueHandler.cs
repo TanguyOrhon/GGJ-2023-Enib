@@ -16,27 +16,24 @@ namespace DialogueSystem
 
         private void Awake()
         {
+            dialogueUI.HideDialogue();
+        }
+
+        public void LoadSequence()
+        {
             _currentSequenceIndex = -1;
             _currentSequence = null;
             _currentSpeaker = null;
             _currentSentenceIndex = -1;
             _currentSubsentenceIndex = -1;
-        }
-
-        private void Start()
-        {
-            LoadSequence();
-        }
-
-        public void LoadSequence()
-        {
+            dialogueUI.ShowDialogue();
             NextSequence(); // the first by default
         }
 
         private void NextSentence()
         {
             _currentSentenceIndex++;
-            if (_currentSentenceIndex >= _currentSequence.DialogueList.Count)
+            if (_currentSequence == null || _currentSentenceIndex >= _currentSequence.DialogueList.Count)
             {
                 _currentSentenceIndex = -1;
                 // On finished
@@ -50,7 +47,7 @@ namespace DialogueSystem
         private void NextSubSentence()
         {
             _currentSubsentenceIndex++;
-            if (_currentSubsentenceIndex >= _currentSpeaker.Sentences.Count)
+            if (_currentSpeaker == null || _currentSubsentenceIndex >= _currentSpeaker.Sentences.Count)
             {
                 _currentSubsentenceIndex = -1;
                 // On finished

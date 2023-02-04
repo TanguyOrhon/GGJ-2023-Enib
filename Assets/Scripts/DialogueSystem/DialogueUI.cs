@@ -35,5 +35,10 @@ namespace DialogueSystem
         {
             gameObject.SetActive(false);
         }
+        
+        public void ShowDialogue()
+        {
+            gameObject.SetActive(true);
+        }
     }
 }
