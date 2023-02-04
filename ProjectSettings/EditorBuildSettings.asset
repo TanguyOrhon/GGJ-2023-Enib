@@ -6,12 +6,72 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/TitleScene.unity
+    guid: d6eed36cb24c4224f9d166192832a935
   - enabled: 1
-    path: Assets/Scenes/End_Maya.unity
-    guid: 9f3a5f9b715b9d745b1643c57f0f7496
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 2bddbe447d8c1244288637962655fa56
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/End_Tim.unity
-    guid: eba6c1b55245cbe40b05cd77ff15ef7c
+    path: Assets/Scenes/IntroductionScene.unity
+    guid: 449a31d02043b0348acea7e7fb9ad9a3
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 33f132bcef8e40242bcdeedd251c2935
+  - enabled: 1
+    path: Assets/Scenes/DescriptionSusOneScene.unity
+    guid: 1da1a27f656b9b6459c0a314333c4f18
+  - enabled: 1
+    path: Assets/Scenes/DescriptionSusThreeScene.unity
+    guid: ab1abd166d143424180031c7f2cc5696
+  - enabled: 1
+    path: Assets/Scenes/DescriptionSusTwoScene.unity
+    guid: f5f7000fa94489f44983fadb0cc67f23
+  - enabled: 1
+    path: Assets/Scenes/SusOneMainScene.unity
+    guid: b01b3591926cb0b428c30b9825a4be2e
+  - enabled: 1
+    path: Assets/Scenes/SusThreeMainScene.unity
+    guid: 21bdc1cb78ab6cc44971d9c6a4c466d3
+  - enabled: 1
+    path: Assets/Scenes/SusTwoMainScene.unity
+    guid: 6838b1d085fc6f840bc211925a8263c6
+  - enabled: 1
+    path: Assets/Scenes/SusOneZone1Scene.unity
+    guid: b09da82a45892ab43a1b57b8db07f7e7
+  - enabled: 1
+    path: Assets/Scenes/SusOneZone2Scene.unity
+    guid: 9fb9378164d6f3b4280c86ec22687d3d
+  - enabled: 1
+    path: Assets/Scenes/SusOneZone3Scene.unity
+    guid: dbbac19bb37c26442b9b45d165ecf75a
+  - enabled: 1
+    path: Assets/Scenes/SusOneZone4Scene.unity
+    guid: c3951f1d58701d34bbe92ccdc4c54470
+  - enabled: 1
+    path: Assets/Scenes/SusThreeZone1Scene.unity
+    guid: f638478064c820441857172456258e22
+  - enabled: 1
+    path: Assets/Scenes/SusThreeZone2Scene.unity
+    guid: 53977425568fc3844b2f3ca67199c38b
+  - enabled: 1
+    path: Assets/Scenes/SusThreeZone3Scene.unity
+    guid: d84b0630c8b21694eac113e0bb3c742a
+  - enabled: 1
+    path: Assets/Scenes/SusThreeZone4Scene.unity
+    guid: 6e3dacab3ec117a409e616a8b47ec5b5
+  - enabled: 1
+    path: Assets/Scenes/SusTwoZone1Scene.unity
+    guid: 7436a09ec72a3394fae14ba8d92379ed
+  - enabled: 1
+    path: Assets/Scenes/SusTwoZone2Scene.unity
+    guid: 8f264865afa75534e97b84a9e7e3389e
+  - enabled: 1
+    path: Assets/Scenes/SusTwoZone3Scene.unity
+    guid: 5f4ba61fff9a36447b8071fe69c9c00b
+  - enabled: 1
+    path: Assets/Scenes/SusTwoZone4Scene.unity
+    guid: 706d4f51712203c47984cacb5c502f57
   m_configObjects: {}
