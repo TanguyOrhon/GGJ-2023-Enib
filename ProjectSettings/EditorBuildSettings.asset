@@ -77,4 +77,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SusTwoZone4Scene.unity
     guid: 706d4f51712203c47984cacb5c502f57
+  - enabled: 1
+    path: Assets/Scenes/SusTwoZone5Scene.unity
+    guid: 80a4d1329733fb54f93171e4831949b5
+  - enabled: 1
+    path: Assets/Scenes/SusOneZone5Scene.unity
+    guid: ecdb94c8938d00b4eb7a9868526af41f
+  - enabled: 1
+    path: Assets/Scenes/SusThreeZone5Scene.unity
+    guid: 2b6a05293f58f864895e156ad30a117d
   m_configObjects: {}
