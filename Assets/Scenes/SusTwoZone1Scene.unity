@@ -690,10 +690,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1598838855}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 2123081331}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -835,10 +835,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1598838855}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 1256700956}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -908,6 +908,7 @@ GameObject:
   - component: {fileID: 1256700953}
   - component: {fileID: 1256700955}
   - component: {fileID: 1256700954}
+  - component: {fileID: 1256700956}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -974,6 +975,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256700952}
   m_CullTransparentMesh: 1
+--- !u!114 &1256700956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256700952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 1598838855}
+  keyFromStore: coeur_logo
+  inventoryHandler: {fileID: 11400000, guid: 42cfec9df23bb894ea1bac7cff0a8c48, type: 2}
 --- !u!1001 &1598838853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1177,6 +1193,7 @@ GameObject:
   - component: {fileID: 2123081328}
   - component: {fileID: 2123081330}
   - component: {fileID: 2123081329}
+  - component: {fileID: 2123081331}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1243,3 +1260,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123081327}
   m_CullTransparentMesh: 1
+--- !u!114 &2123081331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123081327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 1598838855}
+  keyFromStore: boules
+  inventoryHandler: {fileID: 11400000, guid: 42cfec9df23bb894ea1bac7cff0a8c48, type: 2}
