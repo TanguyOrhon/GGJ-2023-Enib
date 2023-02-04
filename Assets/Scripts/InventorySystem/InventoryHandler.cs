@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DialogueSystem;
 using UnityEngine;
 
 namespace InventorySystem
@@ -11,6 +12,7 @@ namespace InventorySystem
         public string Name;
         public Texture2D Image; // or Image
         public bool Hide;
+        public DialogueSequence Dialogue;
     }
     
     [CreateAssetMenu(fileName = "Inventory01", menuName = "CUSTOM/Inventory")]

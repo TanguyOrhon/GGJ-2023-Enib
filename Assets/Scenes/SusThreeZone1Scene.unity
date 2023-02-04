@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 248745679}
   - component: {fileID: 248745681}
   - component: {fileID: 248745680}
+  - component: {fileID: 248745682}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -200,6 +201,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248745678}
   m_CullTransparentMesh: 1
+--- !u!114 &248745682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248745678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 1155537412}
+  keyFromStore: soda_transfo
+  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
 --- !u!1 &277685470
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,10 +299,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1155537412}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 1303746904}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -758,10 +774,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1155537412}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 248745682}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -986,10 +1002,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1155537412}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 2089552917}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1328,6 +1344,7 @@ GameObject:
   - component: {fileID: 1303746901}
   - component: {fileID: 1303746903}
   - component: {fileID: 1303746902}
+  - component: {fileID: 1303746904}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -1394,6 +1411,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1303746900}
   m_CullTransparentMesh: 1
+--- !u!114 &1303746904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303746900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 1155537412}
+  keyFromStore: soda_transo
+  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
 --- !u!1 &1855468236
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,6 +1517,7 @@ GameObject:
   - component: {fileID: 2089552914}
   - component: {fileID: 2089552916}
   - component: {fileID: 2089552915}
+  - component: {fileID: 2089552917}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -1551,3 +1584,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089552913}
   m_CullTransparentMesh: 1
+--- !u!114 &2089552917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089552913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 1155537412}
+  keyFromStore: cafe_coeur
+  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}

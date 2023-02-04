@@ -10,6 +10,9 @@ namespace DialogueSystem
         [SerializeField] private DialogueUI dialogueUI;
         [SerializeField] private List<DialogueSequence> sequences;
 
+        public bool usingObjects;
+        public DialogueSequence objectSequences;
+
         private int _currentSequenceIndex; private DialogueSequence _currentSequence;
         private DialogueData _currentSpeaker; private int _currentSentenceIndex;
         private int _currentSubsentenceIndex;
@@ -21,8 +24,15 @@ namespace DialogueSystem
 
         public void LoadSequence(int index)
         {
+            if (usingObjects)
+            {
+                _currentSequence = objectSequences;
+            }
+            else
+            {
+                _currentSequence = sequences[_currentSequenceIndex];
+            }
             _currentSequenceIndex = index;
-            _currentSequence = sequences[_currentSequenceIndex];
             _currentSpeaker = null;
             _currentSentenceIndex = -1;
             _currentSubsentenceIndex = -1;
