@@ -206,9 +206,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1803050733}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
+      - m_Target: {fileID: 1207086058}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -359,8 +359,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handler: {fileID: 1803050733}
-  keyFromStore: 
-  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
+  keyFromStore: poison_maya
+  inventoryHandler: {fileID: 11400000, guid: 67b1ccd12ad6bbf489d2e009cf10bbcb, type: 2}
 --- !u!1 &192225836
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,8 +452,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handler: {fileID: 1803050733}
-  keyFromStore: 
-  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
+  keyFromStore: knife
+  inventoryHandler: {fileID: 11400000, guid: 67b1ccd12ad6bbf489d2e009cf10bbcb, type: 2}
 --- !u!1 &589301785
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,8 +795,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handler: {fileID: 1803050733}
-  keyFromStore: 
-  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
+  keyFromStore: sang_marre
+  inventoryHandler: {fileID: 11400000, guid: 67b1ccd12ad6bbf489d2e009cf10bbcb, type: 2}
 --- !u!1 &918292043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1122,8 +1122,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handler: {fileID: 1803050733}
-  keyFromStore: 
-  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
+  keyFromStore: shaker
+  inventoryHandler: {fileID: 11400000, guid: 67b1ccd12ad6bbf489d2e009cf10bbcb, type: 2}
 --- !u!1 &1529452620
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,10 +1207,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1803050733}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 156677464}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1352,10 +1352,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1803050733}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 192225840}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1691,10 +1691,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1803050733}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 815394082}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
