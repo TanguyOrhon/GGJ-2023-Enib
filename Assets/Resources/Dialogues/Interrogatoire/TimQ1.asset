@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95729d81c5184081869a26fdaf2ec08b, type: 3}
+  m_Name: TimQ1
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Quelle est votre relation avec les femmes en g\xE9n\xE9ral, votre s\u0153ur
+      par exemple?"
+  - Speaker: TIM
+    Sentences:
+    - "Et bien, je n\u2019ai jamais \xE9t\xE9 trop proche de ma s\u0153ur, elle avait
+      toujours plus de choses que moi, ce n\u2019est pas une fille bien, en m\xEAme
+      temps j\u2019ai jamais rencontr\xE9 de fille bien comme on dit. "
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Pouvez-vous d\xE9velopper, qu\u2019est ce que vous consid\xE9rez comme une
+      fille bien?"
+  - Speaker: TIM
+    Sentences:
+    - "Ba une fille qui prend soin de moi quoi, qui ne s'int\xE9resse qu'\xE0 moi,
+      pas \xE0 ses exs. Encore moins quand son ex est une fille en plus! Je ne fais
+      pas confiance aux femmes, elles nous trompent toujours de toute fa\xE7on. "
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Avez-vous fait du mal \xE0 Vick pour cette raison ? Parce que vous ne pouviez
+      jamais lui faire confiance?"
+  - Speaker: TIM
+    Sentences:
+    - "Je ne lui ai pas fait de mal! Je sais qu\u2019elle revoit Maya en douce, et
+      si c\u2019est pas, elle se sera un ou une autre! Mais elle ne se rend pas compte
+      que c\u2019est moi qui suit parfait pour elle! Donc si je ne peux pas lui suffir\u2026
+      Dans tous les cas, elle est morte si vite! Je ne pense pas qu\u2019elle ait
+      eu mal.\r\n\n\n\n\n\n\n\n\n\n\n"

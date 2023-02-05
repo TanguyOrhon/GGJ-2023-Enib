@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95729d81c5184081869a26fdaf2ec08b, type: 3}
+  m_Name: GwennQ5
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - Speaker: INSPECTEUR
+    Sentences:
+    - Travaillez-vous ici depuis longtemps ?
+  - Speaker: GWENN
+    Sentences:
+    - "\xE7a fait seulement quelques jours que j\u2019ai commenc\xE9. On m\u2019appr\xE9cie
+      plut\xF4t bien ici malgr\xE9 que certains me trouvent diff\xE9rent. Je pense
+      me sentir bien, \xE7a me pousse \xE0 bien faire mon boulot ! J\u2019esp\xE8re
+      rester un peu, je change souvent d\u2019emploi avec l'int\xE9rim, j\u2019aimerai
+      un peu plus de stabilit\xE9. "

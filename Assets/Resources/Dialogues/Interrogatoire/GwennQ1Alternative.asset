@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95729d81c5184081869a26fdaf2ec08b, type: 3}
+  m_Name: GwennQ1Alternative
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - Speaker: GWENN
+    Sentences:
+    - "C\u2019est vrai, je ne vais pas le cacher, mon coeur battait la chamade\u2026
+      \xE7a me fait \xE7a \xE0 chaque fois\u2026"
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "\xC0 chaque fois ? Qu\u2019entendez-vous par l\xE0 ? A chaque fois que vous
+      vous retrouvez face \xE0 un cadavre ? "
+  - Speaker: GWENN
+    Sentences:
+    - "Non\u2026 A chaque fois que je me retrouve dans une situation stressante.
+      Quand quelqu\u2019un conduit trop vite, quand je dois passer un entretien d\u2019embauche,
+      des situations comme \xE7a\u2026 Comme quand j\u2019ai d\xE9m\xE9nag\xE9 il
+      y a peu."
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Je vois, \xE7a fait sens avec la situation d\u2019aujourd\u2019hui. Comment
+      se fait-il que vous ayez d\xE9m\xE9nag\xE9 r\xE9cemment ? Vous fuyez peut-\xEAtre
+      quelque chose ? "
+  - Speaker: GWENN
+    Sentences:
+    - "J\u2019ai eu une s\xE9paration difficile\u2026 Je pr\xE9f\xE9rais recommencer
+      ma vie \xE0 z\xE9ro, ailleurs, l\xE0 o\xF9 personne ne me connaissait."
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Je comprends, \xE7a semble coh\xE9rent, cependant vous ne m\u2019inspirez
+      toujours pas confiance."

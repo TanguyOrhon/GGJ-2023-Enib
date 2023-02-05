@@ -247,6 +247,7 @@ GameObject:
   - component: {fileID: 217658492}
   - component: {fileID: 217658494}
   - component: {fileID: 217658493}
+  - component: {fileID: 217658495}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -313,6 +314,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 217658491}
   m_CullTransparentMesh: 1
+--- !u!114 &217658495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217658491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 66489066}
+  keyFromStore: bagel
+  inventoryHandler: {fileID: 11400000, guid: 67b1ccd12ad6bbf489d2e009cf10bbcb, type: 2}
 --- !u!1 &320211670
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,10 +412,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 66489066}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 217658495}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1025,10 +1041,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 66489066}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 1530229162}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1098,6 +1114,7 @@ GameObject:
   - component: {fileID: 1530229159}
   - component: {fileID: 1530229161}
   - component: {fileID: 1530229160}
+  - component: {fileID: 1530229162}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -1164,6 +1181,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530229158}
   m_CullTransparentMesh: 1
+--- !u!114 &1530229162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530229158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 66489066}
+  keyFromStore: pizza
+  inventoryHandler: {fileID: 11400000, guid: 67b1ccd12ad6bbf489d2e009cf10bbcb, type: 2}
 --- !u!1 &1855468236
 GameObject:
   m_ObjectHideFlags: 0
