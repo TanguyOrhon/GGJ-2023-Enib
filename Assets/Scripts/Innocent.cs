@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,7 +16,8 @@ public class Innocent : MonoBehaviour
     private Button oui;
     private Button non;
     private string currentPerso;
-    
+    private bool test = false;
+
     public void Awake()
     {
         maya = GameObject.FindGameObjectWithTag("Maya").GetComponent<Button>();
@@ -44,14 +46,16 @@ public class Innocent : MonoBehaviour
     // Update is called once per frame
     public void OnClick(string perso)
     {
-        currentPerso = perso;
-        text.text = "Etes-vous certain que " + perso + " est innocent ?";
-
-        maya.gameObject.SetActive(false);
-        tim.gameObject.SetActive(false);
-        gwenn.gameObject.SetActive(false);
-        oui.gameObject.SetActive(true);
-        non.gameObject.SetActive(true);
+        if (test == false)
+        {
+            text.text = "Etes-vous certain que " + perso + " est innocent ?";
+            currentPerso = perso;
+            maya.gameObject.SetActive(false);
+            tim.gameObject.SetActive(false);
+            gwenn.gameObject.SetActive(false);
+            oui.gameObject.SetActive(true);
+            non.gameObject.SetActive(true);
+        }
     }
     
     public void OnClickNo()
@@ -59,11 +63,37 @@ public class Innocent : MonoBehaviour
         Choose();
     }
     
+    public void OnClickPerso(string perso)
+    {
+        if (test == true)
+        {
+            caracter.Remove(perso);
+            PlayerPrefs.SetString("perso1", caracter[0]);
+            PlayerPrefs.SetString("perso2", caracter[1]);
+            SceneManager.LoadScene("Interrogatoire2Sus" + perso + "Scene");
+        }
+        
+    }
+    
     public void OnClickYes()
     {
-        caracter.Remove(currentPerso);
-        PlayerPrefs.SetString("perso1", caracter[0]);
-        PlayerPrefs.SetString("perso2", caracter[1]);
-        SceneManager.LoadScene("Interrogatoire2Sus" + caracter[0] + "Scene");
+        test = true;
+        maya.gameObject.SetActive(true);
+        tim.gameObject.SetActive(true);
+        gwenn.gameObject.SetActive(true);
+        oui.gameObject.SetActive(false);
+        non.gameObject.SetActive(false);
+        if (currentPerso == "Maya")
+        {
+            maya.gameObject.SetActive(false);
+        }else if (currentPerso == "Tim")
+        {
+            tim.gameObject.SetActive(false);
+        }
+        else if(currentPerso == "Gwenn")
+        {
+            gwenn.gameObject.SetActive(false);
+        }
+        text.text = "Qui voulez-vous interroger en premier ?";
     }
 }
