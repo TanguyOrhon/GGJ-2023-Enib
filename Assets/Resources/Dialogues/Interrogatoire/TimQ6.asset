@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95729d81c5184081869a26fdaf2ec08b, type: 3}
+  m_Name: TimQ6
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Quel type de caf\xE9 pr\xE9f\xE9rez-vous?\n"
+  - Speaker: TIM
+    Sentences:
+    - " euh, je pr\xE9f\xE8re le th\xE9, surtout le matcha, mais\u2026"
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "MOI AUSSI!!!!! C\u2019est mon pr\xE9f\xE9r\xE9!!! Je viens dans ce bar d\xE8s
+      que je peux m\u2019offrir une petite pause pour le d\xE9guster. C\u2019est
+      vraiment le meilleur de la ville! Enfin, je divague un peu l\xE0\u2026\r\n"

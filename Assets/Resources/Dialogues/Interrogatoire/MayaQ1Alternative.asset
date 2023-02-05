@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95729d81c5184081869a26fdaf2ec08b, type: 3}
+  m_Name: MayaQ1Alternative
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - Speaker: MAYA
+    Sentences:
+    - "Je ne sais pas, la faim dans le monde, le r\xE9chauffement climatique, la
+      pauvret\xE9, le capitalisme\u2026 et Tim. Il n\u2019a rien \xE0 faire dans
+      la vie de Vick, en plus avec sa jalousie, il ne la laisse pas s\u2019\xE9panouir,
+      elle ne peut m\xEAme pas passer seule ici! Si je pouvais\u2026 c\u2019est lui
+      que je tuerai! mais je serai suspect d\u2019office, pas comme aujourd\u2019hui!"
+  - Speaker: INSPECTEUR
+    Sentences:
+    - " A vrai dire Mademoiselle, vous n\u2019\xEAtes pas vraiment innocent\xE9,
+      j\u2019ai encore de s\xE9rieux doutes, vous \xEAtes la personne qui a eu le
+      plus d\u2019acc\xE8s \xE0 sa boisson, sans compter le c\u0153ur dans le caf\xE9
+      pour rendre jaloux Tim. En tant qu\u2019inspecteur depuis 25 ans, je remarque
+      vite quand on essaye de me tromper!  Vous auriez pu empoisonner Vick pour faire
+      accuser Tim\u2026"
+  - Speaker: MAYA
+    Sentences:
+    - " Mais c\u2019est n\u2019importe quoi! pourquoi je l\u2019aurai tu\xE9e elle!
+      je suis folle d\u2019elle!! Je n\u2019aurais jamais pu faire \xE7a!\n"
