@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 37697908}
   - component: {fileID: 37697910}
   - component: {fileID: 37697909}
+  - component: {fileID: 37697911}
   m_Layer: 5
   m_Name: Image (5)
   m_TagString: Untagged
@@ -200,6 +201,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 37697907}
   m_CullTransparentMesh: 1
+--- !u!114 &37697911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37697907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 1423616111}
+  keyFromStore: sang_marre
+  inventoryHandler: {fileID: 11400000, guid: 42cfec9df23bb894ea1bac7cff0a8c48, type: 2}
 --- !u!1 &63962078
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,10 +299,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1423616111}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 133190796}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -356,6 +372,7 @@ GameObject:
   - component: {fileID: 133190793}
   - component: {fileID: 133190795}
   - component: {fileID: 133190794}
+  - component: {fileID: 133190796}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -422,6 +439,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 133190792}
   m_CullTransparentMesh: 1
+--- !u!114 &133190796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133190792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 1423616111}
+  keyFromStore: biere
+  inventoryHandler: {fileID: 11400000, guid: 42cfec9df23bb894ea1bac7cff0a8c48, type: 2}
 --- !u!1 &296018668
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,6 +465,7 @@ GameObject:
   - component: {fileID: 296018669}
   - component: {fileID: 296018671}
   - component: {fileID: 296018670}
+  - component: {fileID: 296018672}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -499,6 +532,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296018668}
   m_CullTransparentMesh: 1
+--- !u!114 &296018672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296018668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 1423616111}
+  keyFromStore: poison_racine
+  inventoryHandler: {fileID: 11400000, guid: 42cfec9df23bb894ea1bac7cff0a8c48, type: 2}
 --- !u!1 &299244550
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,10 +630,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1423616111}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 659763030}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -727,10 +775,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1423616111}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 1862957462}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -872,10 +920,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1423616111}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 644307570}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1195,6 +1243,7 @@ GameObject:
   - component: {fileID: 644307567}
   - component: {fileID: 644307569}
   - component: {fileID: 644307568}
+  - component: {fileID: 644307570}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -1261,6 +1310,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644307566}
   m_CullTransparentMesh: 1
+--- !u!114 &644307570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644307566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 1423616111}
+  keyFromStore: boisson_kiwi
+  inventoryHandler: {fileID: 11400000, guid: 42cfec9df23bb894ea1bac7cff0a8c48, type: 2}
 --- !u!1 &659763026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,6 +1336,7 @@ GameObject:
   - component: {fileID: 659763027}
   - component: {fileID: 659763029}
   - component: {fileID: 659763028}
+  - component: {fileID: 659763030}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -1338,6 +1403,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659763026}
   m_CullTransparentMesh: 1
+--- !u!114 &659763030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659763026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 1423616111}
+  keyFromStore: boisson_orange
+  inventoryHandler: {fileID: 11400000, guid: 42cfec9df23bb894ea1bac7cff0a8c48, type: 2}
 --- !u!1 &884619881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,10 +1501,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1423616111}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 1032416524}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1716,10 +1796,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1423616111}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 37697911}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1873,6 +1953,7 @@ GameObject:
   - component: {fileID: 1032416521}
   - component: {fileID: 1032416523}
   - component: {fileID: 1032416522}
+  - component: {fileID: 1032416524}
   m_Layer: 5
   m_Name: Image (6)
   m_TagString: Untagged
@@ -1939,6 +2020,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032416520}
   m_CullTransparentMesh: 1
+--- !u!114 &1032416524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032416520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 1423616111}
+  keyFromStore: knife
+  inventoryHandler: {fileID: 11400000, guid: 42cfec9df23bb894ea1bac7cff0a8c48, type: 2}
 --- !u!1001 &1423616109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2135,10 +2231,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1423616111}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 296018672}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2292,6 +2388,7 @@ GameObject:
   - component: {fileID: 1862957459}
   - component: {fileID: 1862957461}
   - component: {fileID: 1862957460}
+  - component: {fileID: 1862957462}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -2358,3 +2455,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862957458}
   m_CullTransparentMesh: 1
+--- !u!114 &1862957462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862957458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 1423616111}
+  keyFromStore: poison_maya
+  inventoryHandler: {fileID: 11400000, guid: 42cfec9df23bb894ea1bac7cff0a8c48, type: 2}

@@ -299,25 +299,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1731888870}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1352430851}
         m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+        m_MethodName: LoadSpecific
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: c0883965ee47a624b919823f8d5a5299, type: 2}
+          m_ObjectArgumentAssemblyTypeName: DialogueSystem.DialogueSequence, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -968,17 +956,12 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8835713760651222079, guid: da73a0d08c4f8284f8d68ae1cdd34695, type: 3}
   m_PrefabInstance: {fileID: 1352430849}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731888870}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 878da3a707684024797c8ca5146a4e4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1731888870 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8835713760651222077, guid: da73a0d08c4f8284f8d68ae1cdd34695, type: 3}
-  m_PrefabInstance: {fileID: 1352430849}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1855468236
 GameObject:
   m_ObjectHideFlags: 0
