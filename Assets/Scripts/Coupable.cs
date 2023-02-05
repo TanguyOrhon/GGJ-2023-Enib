@@ -27,7 +27,8 @@ public class Coupable : MonoBehaviour
 
     public void OnClickPerso(string perso)
     {
-        if (perso.ToLower().Contains(SaveSystemHandler.Instance.coupable))
+        if (!string.IsNullOrEmpty(SaveSystemHandler.Instance.coupable) 
+            && perso.ToLower().Contains(SaveSystemHandler.Instance.coupable))
         {
             SceneManager.LoadScene("End_" + perso + "Scene");
         }
