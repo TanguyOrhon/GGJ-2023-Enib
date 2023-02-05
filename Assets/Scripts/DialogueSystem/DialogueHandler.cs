@@ -1,7 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace DialogueSystem
 {
@@ -13,9 +16,13 @@ namespace DialogueSystem
         public bool usingObjects;
         public DialogueSequence objectSequences;
 
-        private int _currentSequenceIndex; private DialogueSequence _currentSequence;
-        private DialogueData _currentSpeaker; private int _currentSentenceIndex;
+        private int _currentSequenceIndex;
+        private DialogueSequence _currentSequence;
+        private DialogueData _currentSpeaker;
+        private int _currentSentenceIndex;
         private int _currentSubsentenceIndex;
+        
+        [SerializeField] private Button prochain;
 
         private void Awake()
         {
@@ -32,6 +39,7 @@ namespace DialogueSystem
             {
                 _currentSequence = sequences[_currentSequenceIndex];
             }
+
             _currentSequenceIndex = index;
             _currentSpeaker = null;
             _currentSentenceIndex = -1;
@@ -59,8 +67,10 @@ namespace DialogueSystem
                 // On finished
                 dialogueUI.HideDialogue();
                 print("DIALOGUE END");
+                if(prochain != null) prochain.gameObject.SetActive(true);
                 return;
             }
+
             _currentSpeaker = _currentSequence.DialogueList[_currentSentenceIndex];
             NextSubSentence();
         }
@@ -84,6 +94,18 @@ namespace DialogueSystem
         public void NextButtonAction()
         {
             NextSubSentence();
+        }
+
+        public void OnClick()
+        {
+            if (SceneManager.GetActiveScene().name != "Interrogatoire2Sus" + PlayerPrefs.GetString("perso2") + "Scene")
+            {
+                SceneManager.LoadScene("Interrogatoire2Sus" + PlayerPrefs.GetString("perso2") + "Scene");
+            }
+            else
+            {
+                SceneManager.LoadScene("Main_Menu_2");
+            }
         }
     }
 }
