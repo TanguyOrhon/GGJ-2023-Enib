@@ -40,6 +40,16 @@ namespace DialogueSystem
             NextSentence();
         }
 
+        public void LoadSpecific(DialogueSequence ds)
+        {
+            _currentSequence = ds;
+            _currentSpeaker = null;
+            _currentSentenceIndex = -1;
+            _currentSubsentenceIndex = -1;
+            dialogueUI.ShowDialogue();
+            NextSentence();
+        }
+
         private void NextSentence()
         {
             _currentSentenceIndex++;
