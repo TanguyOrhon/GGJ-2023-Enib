@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95729d81c5184081869a26fdaf2ec08b, type: 3}
+  m_Name: MayaQ6
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Comment vous \xEAtes vous coup\xE9 le doigt?"
+  - Speaker: MAYA
+    Sentences:
+    - "En coupant les citrons hier pour les mojitos, j\u2019ai eu si mal avec le
+      jus de citron que j'ai cru que j\u2019allais tomber dans les pommes! Mais Vick
+      a \xE9t\xE9 empoisonn\xE9e, pas poignard\xE9e, qu\u2019est ce que vous cherchez
+      avec cela?\r\n"

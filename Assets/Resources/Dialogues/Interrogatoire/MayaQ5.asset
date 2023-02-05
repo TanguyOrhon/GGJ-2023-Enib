@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95729d81c5184081869a26fdaf2ec08b, type: 3}
+  m_Name: MayaQ5
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - Speaker: INSPECTEUR
+    Sentences:
+    - 'Pourquoi avez-vous appris le Russe? '
+  - Speaker: MAYA
+    Sentences:
+    - "Ce n\u2019est pas du Russe mais de l\u2019Ukrainien, je l\u2019ai appris pour
+      ma voisine, j\u2019ai toujours \xE9tait dou\xE9 avec les langues, alors je
+      l\u2019ai appris pour lui faire la traduction, la pauvre est arriv\xE9 il y
+      a quelques mois mais elle ne comprend absolument rien au fran\xE7ais, j\u2019ai
+      beau essayer de lui apprendre rien n\u2019y fait! Mais qu\u2019est-ce que cela
+      a \xE0 voir avec Vick?\r\n"

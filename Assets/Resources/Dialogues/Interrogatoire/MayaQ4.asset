@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95729d81c5184081869a26fdaf2ec08b, type: 3}
+  m_Name: MayaQ4
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "En tant que Barista, vous avez facilement acc\xE8s \xE0 de nombreux liquides,
+      avez-vous ajout\xE9 quelque chose dans la boisson de Vick?"
+  - Speaker: MAYA
+    Sentences:
+    - "Oui, j\u2019avoue, mais aussi j\u2019en avais marre qu\u2019elle vienne toujours
+      avec lui dans MON bar. Donc c\u2019est vrai\u2026 j\u2019avoue je n\u2019aurai
+      pas d\xFB faire \xE7a mais c\u2019\xE9tait tellement tentant, je\u2026 je lui
+      ai mis\u2026 je lui ai fait un petit coeur dans sa tasse !!! et alors \xE7a
+      n\u2019a jamais tu\xE9 personne! je n\u2019aurai jamais pu lui faire du mal,
+      je l'aimais trop pour \xE7a!\r\n"
