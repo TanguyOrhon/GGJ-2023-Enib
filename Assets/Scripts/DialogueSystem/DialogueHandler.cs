@@ -118,9 +118,9 @@ namespace DialogueSystem
 
         public void OnClick()
         {
-            if (SceneManager.GetActiveScene().name != "Interrogatoire2Sus" + PlayerPrefs.GetString("perso2") + "Scene")
+            if (SceneManager.GetActiveScene().name != "Interrogatoire2Sus" + PlayerPrefs.GetString("perso") + "Scene")
             {
-                SceneManager.LoadScene("Interrogatoire2Sus" + PlayerPrefs.GetString("perso2") + "Scene");
+                SceneManager.LoadScene("Interrogatoire2Sus" + PlayerPrefs.GetString("perso") + "Scene");
             }
             else
             {

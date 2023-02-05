@@ -68,8 +68,7 @@ public class Innocent : MonoBehaviour
         if (test == true)
         {
             caracter.Remove(perso);
-            PlayerPrefs.SetString("perso1", caracter[0]);
-            PlayerPrefs.SetString("perso2", caracter[1]);
+            PlayerPrefs.SetString("perso", caracter[0]);
             SceneManager.LoadScene("Interrogatoire2Sus" + perso + "Scene");
         }
         
@@ -95,5 +94,8 @@ public class Innocent : MonoBehaviour
             gwenn.gameObject.SetActive(false);
         }
         text.text = "Qui voulez-vous interroger en premier ?";
+        caracter.Remove(currentPerso);
+        PlayerPrefs.SetString("perso1", caracter[0]);
+        PlayerPrefs.SetString("perso2", caracter[1]);
     }
 }
