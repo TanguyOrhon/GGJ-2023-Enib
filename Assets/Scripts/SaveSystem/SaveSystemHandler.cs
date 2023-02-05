@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using InventorySystem;
 using UnityEngine;
 
@@ -12,11 +13,18 @@ namespace SaveSystem
         public Dictionary<string, bool> inv2; // Maya
         public Dictionary<string, bool> inv3; // Tim
 
+        public List<bool> visitedForGwenn;
+        public List<bool> visitedForMaya;
+        public List<bool> visitedForTim;
+
         public SavePlayerData()
         {
             inv1 = new Dictionary<string, bool>();
             inv2 = new Dictionary<string, bool>();
             inv3 = new Dictionary<string, bool>();
+            visitedForGwenn = new List<bool>();
+            visitedForMaya = new List<bool>();
+            visitedForTim = new List<bool>();
         }
 
         public void Init(InventoryHandler ih1, InventoryHandler ih2, InventoryHandler ih3)
@@ -60,6 +68,66 @@ namespace SaveSystem
             
             _playerData = new SavePlayerData();
             _playerData.Init(forGwenn, forMaya, forTim);
+            InitMind();
+        }
+
+        public void InitMind()
+        {
+            _playerData.visitedForGwenn.AddRange(new []{ false, false, false, false, false });
+            _playerData.visitedForMaya.AddRange(new []{ false, false, false, false, false });
+            _playerData.visitedForTim.AddRange(new []{ false, false, false, false, false });
+        }
+
+        public int GetVisitedCount(string person)
+        {
+            if (person.ToLower().Contains("gwenn"))
+            {
+                return _playerData.visitedForGwenn.Count(x => x);
+            }
+            if (person.ToLower().Contains("maya"))
+            {
+                return _playerData.visitedForMaya.Count(x => x);
+            }
+            if (person.ToLower().Contains("tim"))
+            {
+                return _playerData.visitedForTim.Count(x => x);
+            }
+
+            return -1;
+        }
+
+        public void ChangeVisited(string person, int index, bool val)
+        {
+            if (person.ToLower().Contains("gwenn"))
+            {
+                _playerData.visitedForGwenn[index] = val;
+            }
+            else if (person.ToLower().Contains("maya"))
+            {
+                _playerData.visitedForMaya[index] = val;
+            }
+            else if (person.ToLower().Contains("tim"))
+            {
+                _playerData.visitedForTim[index] = val;
+            }
+        }
+
+        public bool GetVisitedIndex(string person, int index)
+        {
+            if (person.ToLower().Contains("gwenn"))
+            {
+                return _playerData.visitedForGwenn[index];
+            }
+            if (person.ToLower().Contains("maya"))
+            {
+                return _playerData.visitedForMaya[index];
+            }
+            if (person.ToLower().Contains("tim"))
+            {
+                return _playerData.visitedForTim[index];
+            }
+
+            return false;
         }
 
         public void ChangeDataInventory(InventoryHandler ih, string key, bool val)

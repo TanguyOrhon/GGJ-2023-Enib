@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/DescriptionSusThreeScene.unity
     guid: ab1abd166d143424180031c7f2cc5696
   - enabled: 1
+    path: Assets/Scenes/ChooseInnocentScene.unity
+    guid: 845666b325c86cf4f8874194653e2024
+  - enabled: 1
     path: Assets/Scenes/DescriptionSusTwoScene.unity
     guid: f5f7000fa94489f44983fadb0cc67f23
   - enabled: 1
