@@ -24,6 +24,8 @@ namespace DialogueSystem
         
         [SerializeField] private Button prochain;
 
+        private Action onEndLocal;
+
         private void Awake()
         {
             dialogueUI.HideDialogue();
@@ -57,6 +59,22 @@ namespace DialogueSystem
             dialogueUI.ShowDialogue();
             NextSentence();
         }
+        
+        public void LoadSpecific2(DialogueSequence ds)
+        {
+            _currentSequence = ds;
+            _currentSpeaker = null;
+            _currentSentenceIndex = -1;
+            _currentSubsentenceIndex = -1;
+            dialogueUI.ShowDialogue();
+            NextSentence();
+        }
+
+        public void LoadAlter(Alter alter, Action onEnd)
+        {
+            onEndLocal = onEnd;
+            LoadSpecific2(alter.normal);
+        }
 
         private void NextSentence()
         {
@@ -67,6 +85,8 @@ namespace DialogueSystem
                 // On finished
                 dialogueUI.HideDialogue();
                 print("DIALOGUE END");
+                onEndLocal?.Invoke();
+                onEndLocal = null;
                 if(prochain != null) prochain.gameObject.SetActive(true);
                 return;
             }
