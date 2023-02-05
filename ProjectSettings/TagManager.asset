@@ -10,6 +10,9 @@ TagManager:
   - Oui
   - Non
   - Prochain
+  - Maya2
+  - Gwenn2
+  - Tim2
   layers:
   - Default
   - TransparentFX
