@@ -124,7 +124,7 @@ namespace DialogueSystem
             }
             else
             {
-                SceneManager.LoadScene("Main_Menu_2");
+                SceneManager.LoadScene("ChooseCoupableScene");
             }
         }
     }

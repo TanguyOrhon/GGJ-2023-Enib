@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace DialogueSystem
 {
@@ -19,9 +20,9 @@ namespace DialogueSystem
         public List<Alter> doublons;
         [SerializeField] private DialogueHandler dialogueHandler;
         [SerializeField] private GameObject uiPart;
+        [SerializeField] private Button prochain;
 
         public int Counter;
-        public string nextSceneName;
 
         public void OnClick(int index)
         {
@@ -32,7 +33,7 @@ namespace DialogueSystem
 
         public void Check()
         {
-            if (Counter == 3) SceneManager.LoadScene(nextSceneName);
+            if (Counter == 3) prochain.gameObject.SetActive(true);
             else uiPart.SetActive(true);
         }
     }
