@@ -206,10 +206,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2051634399}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 1783088906}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -351,9 +351,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2051634399}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
+      - m_Target: {fileID: 1175875929}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -363,7 +363,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 307807631}
+      - m_Target: {fileID: 1175875924}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -424,6 +424,7 @@ GameObject:
   - component: {fileID: 484896784}
   - component: {fileID: 484896786}
   - component: {fileID: 484896785}
+  - component: {fileID: 484896787}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -490,6 +491,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 484896783}
   m_CullTransparentMesh: 1
+--- !u!114 &484896787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484896783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 2051634399}
+  keyFromStore: guitar
+  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
 --- !u!1 &589301785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,10 +1073,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2051634399}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 1
+      - m_Target: {fileID: 484896783}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1069,10 +1085,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1105075914}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 484896787}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1130,6 +1146,7 @@ GameObject:
   - component: {fileID: 1149755248}
   - component: {fileID: 1149755250}
   - component: {fileID: 1149755249}
+  - component: {fileID: 1149755251}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -1196,6 +1213,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149755247}
   m_CullTransparentMesh: 1
+--- !u!114 &1149755251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149755247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 2051634399}
+  keyFromStore: flute_a_bec
+  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
 --- !u!1 &1175875924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,6 +1240,7 @@ GameObject:
   - component: {fileID: 1175875927}
   - component: {fileID: 1175875926}
   - component: {fileID: 1175875928}
+  - component: {fileID: 1175875929}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -1370,6 +1403,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1175875929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175875924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 2051634399}
+  keyFromStore: flute_cheloue
+  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
 --- !u!1 &1446821467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1453,10 +1501,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2051634399}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 1
+      - m_Target: {fileID: 1549686295}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1465,10 +1513,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1446821467}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1549686299}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1526,6 +1574,7 @@ GameObject:
   - component: {fileID: 1549686296}
   - component: {fileID: 1549686298}
   - component: {fileID: 1549686297}
+  - component: {fileID: 1549686299}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -1592,6 +1641,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549686295}
   m_CullTransparentMesh: 1
+--- !u!114 &1549686299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549686295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 2051634399}
+  keyFromStore: xylo_drum
+  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
 --- !u!1 &1783088902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1603,6 +1667,7 @@ GameObject:
   - component: {fileID: 1783088903}
   - component: {fileID: 1783088905}
   - component: {fileID: 1783088904}
+  - component: {fileID: 1783088906}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1669,6 +1734,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1783088902}
   m_CullTransparentMesh: 1
+--- !u!114 &1783088906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783088902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 2051634399}
+  keyFromStore: drum_simple
+  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
 --- !u!1 &1855468236
 GameObject:
   m_ObjectHideFlags: 0
@@ -1834,9 +1914,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2051634399}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
+      - m_Target: {fileID: 1149755251}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1846,7 +1926,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2008557617}
+      - m_Target: {fileID: 1149755247}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6

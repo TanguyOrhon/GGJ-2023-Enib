@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 58661994}
   - component: {fileID: 58661996}
   - component: {fileID: 58661995}
+  - component: {fileID: 58661997}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -200,6 +201,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 58661993}
   m_CullTransparentMesh: 1
+--- !u!114 &58661997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58661993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 310071039}
+  keyFromStore: tube_a_essai
+  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
 --- !u!1 &79614418
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,6 +227,7 @@ GameObject:
   - component: {fileID: 79614419}
   - component: {fileID: 79614421}
   - component: {fileID: 79614420}
+  - component: {fileID: 79614422}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -277,6 +294,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79614418}
   m_CullTransparentMesh: 1
+--- !u!114 &79614422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79614418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 310071039}
+  keyFromStore: blouse
+  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
 --- !u!1001 &310071037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -727,10 +759,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 310071039}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 1018819764}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -872,10 +904,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 310071039}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 79614422}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1179,6 +1211,7 @@ GameObject:
   - component: {fileID: 1018819761}
   - component: {fileID: 1018819763}
   - component: {fileID: 1018819762}
+  - component: {fileID: 1018819764}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -1245,6 +1278,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1018819760}
   m_CullTransparentMesh: 1
+--- !u!114 &1018819764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018819760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 310071039}
+  keyFromStore: jean-victor-balin-poison
+  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
 --- !u!1 &1045483000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,6 +1304,7 @@ GameObject:
   - component: {fileID: 1045483001}
   - component: {fileID: 1045483003}
   - component: {fileID: 1045483002}
+  - component: {fileID: 1045483004}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -1322,6 +1371,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045483000}
   m_CullTransparentMesh: 1
+--- !u!114 &1045483004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045483000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 310071039}
+  keyFromStore: tube_essai
+  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}
 --- !u!1 &1327739063
 GameObject:
   m_ObjectHideFlags: 0
@@ -1405,10 +1469,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 310071039}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 2051948437}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1550,10 +1614,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 310071039}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 1045483004}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1777,10 +1841,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 310071039}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
+      - m_Target: {fileID: 58661997}
+        m_TargetAssemblyTypeName: InventorySystem.InventoryRef, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1850,6 +1914,7 @@ GameObject:
   - component: {fileID: 2051948434}
   - component: {fileID: 2051948436}
   - component: {fileID: 2051948435}
+  - component: {fileID: 2051948437}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -1916,3 +1981,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051948433}
   m_CullTransparentMesh: 1
+--- !u!114 &2051948437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051948433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae6f8bcdf84af6b97abce0c414fe6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 310071039}
+  keyFromStore: tube_a_essai_3
+  inventoryHandler: {fileID: 11400000, guid: b8f422b9df102f1499bbb7fad2dbacaa, type: 2}

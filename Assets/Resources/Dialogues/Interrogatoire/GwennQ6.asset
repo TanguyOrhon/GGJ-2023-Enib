@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95729d81c5184081869a26fdaf2ec08b, type: 3}
+  m_Name: GwennQ6
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Est-ce que vous ne faites que servir ou pr\xE9parez-vous les commandes des
+      clients \xE9galement ?"
+  - Speaker: GWENN
+    Sentences:
+    - "Il m\u2019arrive d\u2019en faire oui, dans les moments de rushs ou \xE0 l\u2019inverse
+      quand il n\u2019y a pas grand monde et que je tiens la boutique ! "
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Et aujourd\u2019hui avez-vous pr\xE9par\xE9 des boissons ? "
+  - Speaker: GWENN
+    Sentences:
+    - "Je ne me souviens plus, peut-\xEAtre, je ne sais pas, pas celle de Tim ou
+      Vick, la patronne insiste toujours pour les faire, tout \xE7a pour rajouter
+      des petits c\u0153urs dans celui de Vick\u2026 \r\n"

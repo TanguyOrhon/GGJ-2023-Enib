@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95729d81c5184081869a26fdaf2ec08b, type: 3}
+  m_Name: TimQ1Alternative
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - Speaker: TIM
+    Sentences:
+    - "Et bien, Et bien, je n\u2019ai jamais \xE9t\xE9 trop proche de ma s\u0153ur,
+      elle avait toujours plus de choses que moi, ce n\u2019est pas une fille bien,
+      en m\xEAme temps j\u2019ai jamais rencontr\xE9 de fille bien comme on dit.
+      Mais je ne vois pas ce que ma relation avec les femmes vient faire ici! J\u2019aime
+      vraiment Vick, enfin je l\u2019aimais\u2026 \r\n"
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Pensez vous que Maya aurait pu \xEAtre une femme bien pour vous?"
+  - Speaker: TIM
+    Sentences:
+    - "Bien s\xFBr, c\u2019\xE9tait la femme parfaite, avec elle je voyais vraiment
+      le bien, j\u2019arrive a \xEAtre plus positif! Vous savez dans mon boulot c\u2019est
+      pas trop la joie donc Maya est vraiment le rayon de soleil qui illumine ma
+      journ\xE9e, enfin elle l\u2019\xE9tait\u2026 \r\n\n"

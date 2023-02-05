@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6531ee7eedc51254f98094492c9ac3de, type: 3}
+  m_Name: Inventory_of_Maya
+  m_EditorClassIdentifier: 
+  inventory:
+  - Name: boules
+    Image: {fileID: 2800000, guid: bc7769ce8baed814fbbfef7c01320702, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 12044fb6dfb6ae744abb7a58214dfd8e, type: 2}
+  - Name: coeur_logo
+    Image: {fileID: 2800000, guid: 995669c9e72b3884889dff424d31b718, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 718a5b1b876dba54db26d105f6ae0513, type: 2}
+  - Name: chapeau_cowboy
+    Image: {fileID: 2800000, guid: 67b98704f7d62354dae85f9db725741c, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 2a26fedd920fcae42b36b17a7e1c6013, type: 2}
+  - Name: chapeau_eccossais
+    Image: {fileID: 2800000, guid: 4666bf323929f2543be6a25e7e992b11, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 8e0eef799fba5724cbe5c84d95384c24, type: 2}
+  - Name: chapeau_melon
+    Image: {fileID: 2800000, guid: ac17cf8bbac8eb341a267a68356f6333, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 5bfeb367f624f8f4ea2f9c075c0e04c1, type: 2}
+  - Name: chapka
+    Image: {fileID: 2800000, guid: 20fe6a0ebecaf6d4ba6de94ae2494c01, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 9bac0f0d5ef411c41b1bedccc1b693e8, type: 2}
+  - Name: globe
+    Image: {fileID: 2800000, guid: 09d36674a7052664a9c1f5d2899ffc53, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 5d5bf8347c994c04ca42d4dcb1247189, type: 2}
+  - Name: bell
+    Image: {fileID: 2800000, guid: f9ade9dc996978c42ad7d726b2f3ce29, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: c368860d132f300469dfdd2c4cfd30b9, type: 2}
+  - Name: biere
+    Image: {fileID: 2800000, guid: 2067f7d781493ab46aeebda0fb66d967, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 6aee557a471fcca4a9d2972c830b3fb5, type: 2}
+  - Name: boisson_kiwi
+    Image: {fileID: 2800000, guid: 23722d7a4021f8e489c4a21569a809c0, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 43693ff6a04f31045a89ef7af8f37edb, type: 2}
+  - Name: boisson_orange
+    Image: {fileID: 2800000, guid: 3689d41c7bb13404a9206108a9c399a5, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: a760432808aab9d40a7e9e5be2f27d93, type: 2}
+  - Name: poison_maya
+    Image: {fileID: 2800000, guid: 49cb41f093886e94d82bb5c355541a10, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: fabae99db4ca9a246bdef83696cd5f46, type: 2}
+  - Name: poison_racine
+    Image: {fileID: 2800000, guid: 6ecd0ff124f088f4fb5c27e0cac2f5f8, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: a2298356b56be0546996a5b96f41660a, type: 2}
+  - Name: sang_marre
+    Image: {fileID: 2800000, guid: 60686f1e562754f429d17b9c6096e488, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 6a854f6bad5b5de4a8b682f55fea38cf, type: 2}
+  - Name: knife
+    Image: {fileID: 2800000, guid: b9167265f198d5c4584ddc3cbb0a0a82, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 0dadb61a085728b4b833f677676f91d5, type: 2}
+  - Name: bubble_tea
+    Image: {fileID: 2800000, guid: 55aa161905aa8c04f8933485e9cabc09, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 7f30fdd3516bbc846b749d0384a90c71, type: 2}
+  - Name: cafe_sans_coeur
+    Image: {fileID: 2800000, guid: 697323539921e804fa8eebc4e97b0555, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 1ecf9462683b44c4b84f0b548ee71128, type: 2}
+  - Name: ramen
+    Image: {fileID: 2800000, guid: d07cc6e4c05757041a4d7f8be5594da1, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 017447dca618d8446b04d754502fc1bd, type: 2}
+  - Name: tea
+    Image: {fileID: 2800000, guid: 245782457499ba844b021415a7119332, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: bf45788d33cba674a865088e6e044b9c, type: 2}
+  - Name: tourte
+    Image: {fileID: 2800000, guid: b7b2f5c19cfdcec4c868c445f36f969b, type: 3}
+    Hide: 1
+    Dialogue: {fileID: 11400000, guid: 5b45863ecb5b34141ac33714e46355e4, type: 2}

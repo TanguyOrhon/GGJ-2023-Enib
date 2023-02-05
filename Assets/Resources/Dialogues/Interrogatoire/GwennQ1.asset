@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95729d81c5184081869a26fdaf2ec08b, type: 3}
+  m_Name: GwennQ1
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Vous sembliez bien excit\xE9 devant le corps de Vick plus t\xF4t aujourd\u2019hui,
+      est-ce l\u2019effet que cela vous fait de voir un cadavre ?\n"
+  - Speaker: GWENN
+    Sentences:
+    - "C\u2019est vrai, je ne vais pas le cacher, mon coeur battait la chamade\u2026
+      \xE7a me fait \xE7a \xE0 chaque fois\u2026 \n"
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "\xC0 chaque fois ? Qu\u2019entendez-vous par l\xE0 ? A chaque fois que vous
+      vous retrouvez face \xE0 un cadavre ? \n"
+  - Speaker: GWENN
+    Sentences:
+    - "Non\u2026 A chaque fois que je me retrouve dans une situation stressante.
+      NE ME FAITES PAS DIRE CE QUE JE N\u2019AI PAS DIT ! POUR QUI VOUS PRENEZ VOUS
+      ?\n"
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Vous semblez bien \xE9nerv\xE9 tout \xE0 coup ! C\u2019est \xE9trange, vous
+      semblez bien plus stress\xE9 qu\u2019un innocent. Pouvez-vous me dire la derni\xE8re
+      fois que votre c\u0153ur s\u2019est emball\xE9 de la sorte ?"
+  - Speaker: GWENN
+    Sentences:
+    - " Oui ! Euh\u2026 C\u2019\xE9tait\u2026 Euh\u2026 Lorsque je\u2026 Lorsque
+      j\u2019ai quitt\xE9 mon ancienne ville !"
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Et en quel honneur avez-vous quitt\xE9 votre ancienne ville ? Des probl\xE8mes
+      \xE0 fuir ? Des choses \xE0 laisser derri\xE8re vous ?"
+  - Speaker: GWENN
+    Sentences:
+    - "ARR\xCATEZ TOUT DE SUITE, VOUS N\u2019AVEZ PAS LE DROIT DE ME CUISINER DE
+      LA SORTE!! VOUS NE SAVEZ RIEN !"
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Et bien figurez vous qui si justement, nous avons retrouv\xE9 votre trace
+      Gwenn\u2026"
+  - Speaker: GWENN
+    Sentences:
+    - "C\u2026 C\u2026 Comment ? Comment avez-vous..?"
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Les nanoparticules ont plus d\u2019un tour dans leur sac."
+  - Speaker: GWENN
+    Sentences:
+    - "Alors vous savez tout ? Vous savez ce que j\u2019ai fait ? Je ne voulais pas,
+      je ne peux pas faire autrement\u2026 ILS L\u2019AVAIENT TOUS MERITES ?"
+  - Speaker: GWENN
+    Sentences:
+    - "Comment \xE7a tous ? Je vais me pencher sur votre pass\xE9\u2026"
