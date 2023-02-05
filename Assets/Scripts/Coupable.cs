@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using SaveSystem;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -26,7 +27,14 @@ public class Coupable : MonoBehaviour
 
     public void OnClickPerso(string perso)
     {
-        SceneManager.LoadScene("End_" + perso + "Scene");
+        if (perso.ToLower().Contains(SaveSystemHandler.Instance.coupable))
+        {
+            SceneManager.LoadScene("End_" + perso + "Scene");
+        }
+        else
+        {
+            SceneManager.LoadScene("End_LooseScene");
+        }
     }
 
     public void Start()

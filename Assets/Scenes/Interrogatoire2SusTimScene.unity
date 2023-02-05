@@ -295,8 +295,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1152, y: -631.25}
-  m_SizeDelta: {x: 2274, y: 234.5}
+  m_AnchoredPosition: {x: 576, y: -316.25}
+  m_SizeDelta: {x: 1122, y: 108.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &303037599
 MonoBehaviour:
@@ -690,8 +690,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1152, y: -132.25}
-  m_SizeDelta: {x: 2274, y: 234.5}
+  m_AnchoredPosition: {x: 576, y: -69.25}
+  m_SizeDelta: {x: 1122, y: 108.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &403769176
 MonoBehaviour:
@@ -979,18 +979,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1655083979}
-        m_TargetAssemblyTypeName: DialogueSystem.DialogueHandler, Assembly-CSharp
-        m_MethodName: LoadSequence
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 701670412}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -1002,6 +990,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1286436166}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &701670415
 MonoBehaviour:
@@ -1213,8 +1213,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1152, y: -1130.25}
-  m_SizeDelta: {x: 2274, y: 234.5}
+  m_AnchoredPosition: {x: 576, y: -563.25}
+  m_SizeDelta: {x: 1122, y: 108.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &848905291
 MonoBehaviour:
@@ -1360,7 +1360,7 @@ RectTransform:
   m_GameObject: {fileID: 898348628}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2137330508}
@@ -1370,7 +1370,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920.0001, y: 1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &898348630
 MonoBehaviour:
@@ -1407,6 +1407,7 @@ MonoBehaviour:
   uiPart: {fileID: 2137330507}
   prochain: {fileID: 303532164}
   Counter: 0
+  perso: tim
 --- !u!1 &982383267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,8 +1717,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1152, y: -1379.75}
-  m_SizeDelta: {x: 2274, y: 234.5}
+  m_AnchoredPosition: {x: 576, y: -686.75}
+  m_SizeDelta: {x: 1122, y: 108.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1163998009
 MonoBehaviour:
@@ -2136,8 +2137,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1152, y: -880.75}
-  m_SizeDelta: {x: 2274, y: 234.5}
+  m_AnchoredPosition: {x: 576, y: -439.75}
+  m_SizeDelta: {x: 1122, y: 108.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1646001581
 MonoBehaviour:
@@ -2355,7 +2356,7 @@ PrefabInstance:
     - target: {fileID: 8835713760651222079, guid: da73a0d08c4f8284f8d68ae1cdd34695, type: 3}
       propertyPath: prochain
       value: 
-      objectReference: {fileID: 303532164}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da73a0d08c4f8284f8d68ae1cdd34695, type: 3}
 --- !u!224 &1655083978 stripped
@@ -3061,7 +3062,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 34.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3148,8 +3149,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1152, y: -381.75}
-  m_SizeDelta: {x: 2274, y: 234.5}
+  m_AnchoredPosition: {x: 576, y: -192.75}
+  m_SizeDelta: {x: 1122, y: 108.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2112343968
 MonoBehaviour:

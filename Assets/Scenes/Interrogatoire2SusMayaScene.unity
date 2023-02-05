@@ -2230,6 +2230,7 @@ MonoBehaviour:
   uiPart: {fileID: 2021166437}
   prochain: {fileID: 768873226}
   Counter: 0
+  perso: maya
 --- !u!1 &1452379706
 GameObject:
   m_ObjectHideFlags: 0
@@ -2698,7 +2699,7 @@ PrefabInstance:
     - target: {fileID: 8835713760651222079, guid: da73a0d08c4f8284f8d68ae1cdd34695, type: 3}
       propertyPath: prochain
       value: 
-      objectReference: {fileID: 768873226}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da73a0d08c4f8284f8d68ae1cdd34695, type: 3}
 --- !u!224 &1897504927 stripped

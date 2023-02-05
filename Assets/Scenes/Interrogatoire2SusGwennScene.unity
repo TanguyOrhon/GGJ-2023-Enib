@@ -2943,6 +2943,7 @@ MonoBehaviour:
   uiPart: {fileID: 2123937853}
   prochain: {fileID: 1278779781}
   Counter: 0
+  perso: gwenn
 --- !u!1 &1760493336
 GameObject:
   m_ObjectHideFlags: 0

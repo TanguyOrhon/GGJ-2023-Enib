@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using SaveSystem;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -23,12 +24,20 @@ namespace DialogueSystem
         [SerializeField] private Button prochain;
 
         public int Counter;
+        public string perso;
 
         public void OnClick(int index)
         {
             Counter++;
             uiPart.SetActive(false);
-            dialogueHandler.LoadAlter(doublons[index], () => { Check(); });
+            if (index == 0 && !string.IsNullOrEmpty(SaveSystemHandler.Instance.coupable))
+            {
+                dialogueHandler.LoadAlter(doublons[index], () => { Check(); }, true);
+                return;
+            }
+            if (index == 0) SaveSystemHandler.Instance.coupable = perso;
+            
+            dialogueHandler.LoadAlter(doublons[index], () => { Check(); }, false);
         }
 
         public void Check()

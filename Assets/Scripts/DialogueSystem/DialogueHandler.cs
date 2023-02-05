@@ -70,10 +70,10 @@ namespace DialogueSystem
             NextSentence();
         }
 
-        public void LoadAlter(Alter alter, Action onEnd)
+        public void LoadAlter(Alter alter, Action onEnd, bool al)
         {
             onEndLocal = onEnd;
-            LoadSpecific2(alter.normal);
+            LoadSpecific2(al ? alter.alter : alter.normal);
         }
 
         private void NextSentence()

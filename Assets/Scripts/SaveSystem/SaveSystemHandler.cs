@@ -54,6 +54,8 @@ namespace SaveSystem
 
         private SavePlayerData _playerData;
 
+        public string coupable;
+
         private void Awake()
         {
             if (Instance != null && Instance != this) 
@@ -68,6 +70,7 @@ namespace SaveSystem
             
             _playerData = new SavePlayerData();
             _playerData.Init(forGwenn, forMaya, forTim);
+            coupable = "";
             InitMind();
         }
 
