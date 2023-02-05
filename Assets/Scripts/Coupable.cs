@@ -21,32 +21,15 @@ public class Coupable : MonoBehaviour
         maya = GameObject.FindGameObjectWithTag("Maya2").GetComponent<Button>();
         tim = GameObject.FindGameObjectWithTag("Tim2").GetComponent<Button>();
         gwenn = GameObject.FindGameObjectWithTag("Gwenn2").GetComponent<Button>();
-
-    }
-
-    void Choose()
-    {
-        maya.gameObject.SetActive(true);
-        tim.gameObject.SetActive(true);
-        gwenn.gameObject.SetActive(true);
-        text.text = "Qui est innocent ?";
-    }
-    // Update is called once per frame
-
-    
-    public void OnClickPerso(string perso)
-    {
-        if (test == true)
-        {
-            caracter.Remove(perso);
-            PlayerPrefs.SetString("perso1", caracter[0]);
-            PlayerPrefs.SetString("perso2", caracter[1]);
-            SceneManager.LoadScene("End_" + perso + "Scene");
-        }
         
     }
-    
-    public void start()
+
+    public void OnClickPerso(string perso)
+    {
+        SceneManager.LoadScene("End_" + perso + "Scene");
+    }
+
+    public void Start()
     {
         maya.gameObject.SetActive(false);
         tim.gameObject.SetActive(false);
@@ -63,6 +46,7 @@ public class Coupable : MonoBehaviour
         {
             gwenn.gameObject.SetActive(true);
         }
+        
         if (PlayerPrefs.GetString("perso2") == "Maya")
         {
             maya.gameObject.SetActive(true);
@@ -74,6 +58,7 @@ public class Coupable : MonoBehaviour
         {
             gwenn.gameObject.SetActive(true);
         }
+        
         text.text = "Qui est le coupable ?";
     }
 }

@@ -15,11 +15,20 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenuScene.unity
     guid: 2bddbe447d8c1244288637962655fa56
   - enabled: 1
+    path: Assets/Scenes/ChooseCoupableScene.unity
+    guid: de1951015296da94896a177ffdecd5f0
+  - enabled: 1
     path: Assets/Scenes/Interrogatoire2SusTimScene.unity
     guid: c8b50af386a576d4f940a179c90e304a
   - enabled: 1
     path: Assets/Scenes/Interrogatoire2SusMayaScene.unity
     guid: 62c4bdfc00567dc42af69db34857f0c0
+  - enabled: 1
+    path: Assets/Scenes/End_LooseScene.unity
+    guid: 37a7ba711e8a2dc4994cead2f40a292f
+  - enabled: 1
+    path: Assets/Scenes/End_GwennScene.unity
+    guid: 151cf0718785d4b47aded824500cc4c5
   - enabled: 1
     path: Assets/Scenes/Interrogatoire2SusGwennScene.unity
     guid: da3a9ea9fcab6b54aa98020f03ffb0a6
@@ -29,6 +38,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IntroductionScene.unity
     guid: 449a31d02043b0348acea7e7fb9ad9a3
+  - enabled: 1
+    path: Assets/Scenes/End_TimScene.unity
+    guid: eba6c1b55245cbe40b05cd77ff15ef7c
+  - enabled: 1
+    path: Assets/Scenes/End_MayaScene.unity
+    guid: 9f3a5f9b715b9d745b1643c57f0f7496
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 33f132bcef8e40242bcdeedd251c2935
