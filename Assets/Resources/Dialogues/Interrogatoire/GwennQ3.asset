@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95729d81c5184081869a26fdaf2ec08b, type: 3}
+  m_Name: GwennQ3
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - Speaker: INSPECTEUR
+    Sentences:
+    - "Vous affirmez ne pas avoir de liens avec la victime, mais elle venait souvent
+      dans ce bar, vous n\u2019avez jamais eu d\u2019interactions? \r\n"
+  - Speaker: GWENN
+    Sentences:
+    - "Non, tr\xE8s peu, uniquement dans le cadre professionnel, je lui dit bonjour,
+      je lui sert son caf\xE9 et lui propose de la resservir, mais uniquement professionnel
+      comme je vous dit. Je suis int\xE9rimaire, j\u2019ai commenc\xE9 \xE0 travailler
+      dans ce caf\xE9 il y a seulement quelques jours, j\u2019ai d\xE9m\xE9nag\xE9
+      il y a peu. "

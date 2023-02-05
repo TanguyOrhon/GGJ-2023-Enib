@@ -95,4 +95,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SusThreeZone5Scene.unity
     guid: 2b6a05293f58f864895e156ad30a117d
+  - enabled: 1
+    path: Assets/Scenes/CreditsScene.unity
+    guid: 2ee37d8be51868340a8bf77dc4aba656
   m_configObjects: {}
